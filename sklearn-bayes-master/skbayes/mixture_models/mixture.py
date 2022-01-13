@@ -28,6 +28,7 @@ class StudentMultivariate(object):
     def logpdf(self,x):
         '''
         Calculates value of logpdf at point x
+        that's it
         '''
         xdiff     = x - self.mu
         quad_form = np.sum( np.dot(xdiff,self.L)*xdiff, axis = 1)
