@@ -1,0 +1,4 @@
+# packages required for running sklearn_bayes
+numpy
+scipy
+scikit-learn
